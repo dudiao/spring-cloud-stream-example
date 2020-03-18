@@ -1,0 +1,3 @@
+# Spring Cloud Stream 文档中的示例代码
+
+Spring Cloud Stream 文档的中文翻译，地址：`https://www.yuque.com/spingio/spring-cloud-stream`，还在完善中...
