@@ -8,9 +8,9 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <groupId>xyz.gits.cloud</groupId>
-    <artifactId>1-logging-consumer</artifactId>
+    <artifactId>2-introducing-sample</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>1-logging-consumer</name>
+    <name>2-introducing-sample</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -25,6 +25,9 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-stream</artifactId>
+            <type>test-jar</type>
+            <scope>test</scope>
+            <classifier>test-binder</classifier>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -34,11 +37,6 @@
         <dependency>
             <groupId>org.springframework.amqp</groupId>
             <artifactId>spring-rabbit-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-stream-test-support</artifactId>
             <scope>test</scope>
         </dependency>
     </dependencies>
